@@ -50,11 +50,12 @@ mov ax,[gdtrdata]
 call display4
 
 dispmsg msg7,len7
-sidt[idtrdata+4]
+sidt[idtrdata]
+mov ax,[idtr+4]
 call display4
-sidt[idtrdata+2]
+mov ax,[idtrdata+2]
 call display4
-sidt[idtr]
+mov ax,[idtr]
 call display4
 
 ;To exit
