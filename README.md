@@ -19,3 +19,6 @@ Practical 9 : Write X86/64 ALP to perform overlapped block transfer with string 
 
 Practical 10 : Write X86/64 ALP to perform multiplication of two 8-bit hexadecimal numbers. Use successive addition and add and shift method. (use of 64-bit registers is expected).
 
+Practical 13 : Write x86 ALP to find the factorial of a given integer number on a command line by using recursion. Explicit stack manipulation is expected in the code.
+
+
